@@ -1,0 +1,19 @@
+{
+    "name": "mitasych/otus-composer-hw",
+    "description": "word counter",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Mitasych\\OtusComposerHw\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Aleksandr Mitasov",
+            "email": "mitasych@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    }
+}
