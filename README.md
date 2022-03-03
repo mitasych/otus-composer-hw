@@ -6,7 +6,11 @@
  - PHP 7.4
 
 ## Установка
-
 ```bash
 $ composer require mitasych/otus-composer-hw
+```
+## Использование
+```php
+$counter = new \Mitasych\OtusComposerHw\WordCounter();
+echo $counter->count('Это текст'); // 2
 ```
